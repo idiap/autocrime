@@ -1,3 +1,6 @@
+**The source code of `autocrime` will be released soon. This is a draft of the README file.**
+
+
 ![](pictures/logo.png)
 
 Welcome to `autocrime`, a tool for researchers and Law Enforcement Agencies (LEAs) to process intercepted conversations in ongoing investigations.  The tool expects audio files and an input, and will produce a JSON file as an output (compatible with most our your visualization tools). A graphical user interface is also included, hereon referred to as the **frontend**. The technologies themseleves are pacakged together independent of the frontend, henceforth referred to as the **backend**.
