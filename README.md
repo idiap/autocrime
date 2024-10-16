@@ -1,10 +1,9 @@
-**The source code of `autocrime` will be released soon. This is a draft of the README file.**
+Welcome to `autocrime`, a tool for researchers and Law Enforcement Agencies (LEAs) to process intercepted conversations in ongoing investigations.  
+More details about the platform (access, how to use, etc.) can be found on https://www.roxanne-euproject.org/platform.
+Briefly, the tool expects set of intercepted audio files as an input, and will run technologies (a set of technologies given below in table) to produce a JSON file as an output.
+This README summarizes performance of these automatic machine learning technologies when evaluated on ROXSD data (https://publications.idiap.ch/publications/show/5321) as well as on other (publicly available) datasets.
 
-![](pictures/logo.png)
-
-Welcome to `autocrime`, a tool for researchers and Law Enforcement Agencies (LEAs) to process intercepted conversations in ongoing investigations.  The tool expects audio files and an input, and will produce a JSON file as an output (compatible with most our your visualization tools). A graphical user interface is also included, hereon referred to as the **frontend**. The technologies themseleves are pacakged together independent of the frontend, henceforth referred to as the **backend**.
-
-> Current release: **1.4.0**
+This README is aligned with current release of Autocrime (version: **1.4.0**)
 
 # 1. Supported Technologies
 - A summary of the integrated technologies to-date is presented in this table:
@@ -61,14 +60,10 @@ The list of current supported languages is presented below:
 
 | Language | ASR | NER | Topic |
 | --- | --- | --- | --- |
-| English | ðŸŸ¢ | ðŸŸ¢ | ðŸŸ¢ |
-| German | ðŸŸ¢ | ðŸŸ¢ | ðŸ”´ |
-| Arabic | ðŸŸ¢ | ðŸ”´ | ðŸ”´ |
-| Spanish | ðŸŸ¢ | ðŸ”´ | ðŸ”´ |
-| Greek | ðŸŸ¢ | ðŸ”´ | ðŸ”´ |
-| Dutch | ðŸŸ¢ | ðŸ”´ | ðŸ”´ |
-| Lithuanian | ðŸŸ¢ | ðŸ”´ | ðŸ”´ |
-
-
-
-Questions regarding the installation? Contact me at: srikanth.madikeri@idiap.ch or create an issue on Gitlab.
+| English | ✓ | ✓ | ✓ |
+| German | ✓ | ✓ | x |
+| Arabic | ✓ | x | x |
+| Spanish | ✓ | x | x |
+| Greek | ✓ | x | x |
+| Dutch | ✓ | x | x |
+| Lithuanian | ✓ | x | x |
